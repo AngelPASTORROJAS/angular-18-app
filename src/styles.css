@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-:root {
+:root {     /* la racine du document */
     color-scheme: light dark; /* propriétés css: indique quels couleur doivent être utiliser par défaut*/
 }
 

@@ -7,7 +7,7 @@ import { UserComponent } from "./user/user.component";
   standalone: true,           // import de composant ou module extérieur est activer et se retrouve dans imports
   imports: [RouterOutlet, UserComponent],
   template: `<h1>Hello world in {{city.toUpperCase()}} {{ 1+1 }} </h1>
-    <app-user></app-user>
+    <app-user/><app-user/><app-user/>
   `,
   styles: `
   h1 {

@@ -5,7 +5,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',       // le nom de la balise composant
   standalone: true,           // import de composant ou module extérieur est activer et se retrouve dans imports
   imports: [RouterOutlet],
-  template: `<h1>Hello world</h1>`,
+  template: `<h1>Hello world in {{city}} </h1>`,
   styles: `
   h1 {
     color : red;
@@ -13,5 +13,5 @@ import { RouterOutlet } from '@angular/router';
   `
 })
 export class AppComponent {
-  title = 'angular-18-app';
+  city = 'Lille'
 }

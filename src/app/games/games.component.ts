@@ -5,12 +5,27 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
-      games works!
-    </p>
+    <ul>
+      @for (game of games; track game.id) {
+        <li>{{ game.name }}</li>
+      }
+    </ul>
   `,
   styles: ``
 })
 export class GamesComponent {
-
+  games = [
+    {
+      id: 1,
+      name: 'Tit tac toe'
+    },
+    {
+      id: 2,
+      name: 'Pendu'
+    },
+    {
+      id: 3,
+      name: 'Guerrier'
+    }
+  ];
 }

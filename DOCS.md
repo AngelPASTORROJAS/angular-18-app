@@ -51,3 +51,6 @@ export class AppComponent {
   title = 'angular-18-app';
 }
 ```
+
+## Les propriétés de angular 
+Angular vient par défaut avec ses règles, linter, configuration de typscript

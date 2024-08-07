@@ -64,3 +64,21 @@ Dans un dossier user:
 ```bash
 ng generate user
 ```
+
+## Si on veut créer un nouveau composant games, on a plusieurs commandes
+> Pour voir les commandes disponibles
+```bash
+ng generate component games --help
+```
+
+> Pour simuler ce que la commande ferait on utilise "--dry-run"
+```bash
+ng generate component games --dry-run 
+ng generate component games --skip-tests --dry-run # On simule les fichiers créer sans test
+ng generate component games --skip-tests --inline-style --inline-template --dry-run # On simule les fichiers créer sans test, style et html
+```
+
+> On créer un composant games avec juste le typescript
+```bash
+ng generate component games --skip-tests --inline-style --inline-template
+```

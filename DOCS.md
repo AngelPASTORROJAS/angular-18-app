@@ -25,3 +25,8 @@ ng new angular-18-app
 ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? no 
 ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? no 
 ```
+
+## On installe l'extension VS Code "angular.ng-template"
+```
+angular.ng-template
+```

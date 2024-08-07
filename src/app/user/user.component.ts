@@ -10,7 +10,7 @@ import { GamesComponent } from "../games/games.component";
 })
 export class UserComponent {
   username = 'angel';
-  isLoggedIn = true;
+  isLoggedIn = false;     // isLoggedIn fonctionne comme un state
   
   greet() {
     alert('Hola!!');

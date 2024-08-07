@@ -5,7 +5,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',       // le nom de la balise composant
   standalone: true,           // import de composant ou module extérieur est activer et se retrouve dans imports
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
+  template: `<h1>Hello world</h1>`,
   styleUrl: './app.component.css'
 })
 export class AppComponent {

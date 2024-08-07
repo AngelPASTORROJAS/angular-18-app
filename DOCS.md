@@ -54,3 +54,13 @@ export class AppComponent {
 
 ## Les propriétés de angular 
 Angular vient par défaut avec ses règles, linter, configuration de typscript
+
+## Comment générer un composant user automatiquement
+Dans un dossier user:
+- user.component.css      // CSS du composant user
+- user.component.html     // HTML du composant user
+- user.component.spec.ts  // Test du composant user
+- user.component.ts       // TypeScript du composant user
+```bash
+ng generate user
+```

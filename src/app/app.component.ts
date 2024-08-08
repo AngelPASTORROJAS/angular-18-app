@@ -7,7 +7,7 @@ import { UserComponent } from "./user/user.component";
   standalone: true,           // import de composant ou module extérieur est activer et se retrouve dans imports
   imports: [RouterOutlet, UserComponent],
   templateUrl: './app.component.html',
-  styles: ``
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   city = 'Lille'
